@@ -8,10 +8,8 @@ website:
   site-url: https://teganone.github.io/cdc-acad-homepage
   favicon: images/favicon.png
 
-  # 搜索功能
-  search:
-    location: navbar
-    type: overlay
+  # 搜索功能（已禁用，单页面网站用浏览器 Ctrl+F 即可）
+  search: false
 
   # 导航栏 - 按首页顺序排列的锚点
   navbar:
@@ -43,6 +41,7 @@ format:
   html:
     theme:
       light: [cosmo, styles/custom.scss]
+      dark: [darkly, styles/custom.scss]
     css: styles/main.css
     toc: false
     page-layout: full
