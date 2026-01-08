@@ -1,0 +1,136 @@
+/*-- scss:defaults --*/
+
+// 复用参考项目的配色方案
+$body-bg: #fff;
+$body-color: #494e52;
+$link-color: #224b8d;
+$link-hover-color: #1a3a6e;
+
+// 字体 - 使用参考项目的字体
+$font-family-sans-serif: "Trebuchet MS", Helvetica, sans-serif;
+
+// 灰色系列
+$gray: #7a8288;
+$dark-gray: mix(#000, $gray, 40%);
+$light-gray: mix(#fff, $gray, 50%);
+$lighter-gray: mix(#fff, $gray, 90%);
+$border-color: $lighter-gray;
+
+// 断点
+$medium: 768px;
+$large: 925px;
+
+/*-- scss:rules --*/
+
+// 导航栏样式
+.navbar {
+  border-bottom: 1px solid $border-color;
+
+  .navbar-brand {
+    font-weight: 600;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    color: $gray !important;
+
+    &:hover {
+      color: $dark-gray !important;
+    }
+  }
+}
+
+// 主内容区域
+#quarto-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+// 标题样式
+h1 {
+  margin-top: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $border-color;
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+// 链接样式
+a {
+  color: $link-color;
+  text-decoration: underline;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+// 论文展示盒子 - 复用参考项目设计
+.paper-box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 1px #efefef solid;
+  padding: 2em 0;
+
+  .paper-box-image {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    order: 2;
+
+    img {
+      max-width: 400px;
+      box-shadow: 3px 3px 6px #888;
+      object-fit: cover;
+    }
+  }
+
+  .paper-box-text {
+    max-width: 100%;
+    order: 1;
+  }
+
+  @media (min-width: $medium) {
+    .paper-box-image {
+      justify-content: left;
+      min-width: 200px;
+      max-width: 40%;
+      order: 1;
+    }
+
+    .paper-box-text {
+      justify-content: left;
+      padding-left: 2em;
+      max-width: 60%;
+      order: 2;
+    }
+  }
+}
+
+// 论文徽章
+.badge {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: absolute;
+  margin-top: 0.5em;
+  margin-left: -0.5em;
+  color: white;
+  background-color: #00369f;
+  font-size: 0.8em;
+}
+
+// 页脚
+.page-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid $border-color;
+  font-size: 0.875rem;
+  color: $gray;
+}

@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "DANCHUN CHEN"
+  description: "CS Graduate & Software Engineer | Research in Mechanistic Interpretability and LLM Reasoning"
+  site-url: https://teganone.github.io/cdc-acad-homepage
+
+  # 导航栏 - 按首页顺序排列的锚点
+  navbar:
+    background: light
+    foreground: dark
+    left:
+      - text: About
+        href: index.qmd#about-me
+      - text: News
+        href: index.qmd#news
+      - text: Publications
+        href: index.qmd#publications
+      - text: Honors
+        href: index.qmd#honors
+      - text: Education
+        href: index.qmd#education
+      - text: Experience
+        href: index.qmd#experience
+
+  # 页脚配置
+  page-footer:
+    left: |
+      Copyright 2026 Danchun Chen. All rights reserved.
+    right: |
+      Built with [Quarto](https://quarto.org/)
+
+# 格式设置
+format:
+  html:
+    theme:
+      light: [cosmo, styles/custom.scss]
+    css: styles/main.css
+    toc: false
+    page-layout: full
+    fontsize: 14px
+    linestretch: 1.5
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
