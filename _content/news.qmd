@@ -1,0 +1,5 @@
+# 🔥 News {#news}
+- *2026.01*: &nbsp;📝 Submitted paper on **Mechanistic Interpretability of Propositional Logic Reasoning** to ACL ARR 2026.
+- *2025.05*: &nbsp;🎉🎉 **Certificate of 2nd Place Award** in *LLM for Structural Reasoning (LLM-SR)* grand challenge at XLLM Workshop @ ACL 2025!
+- *2025.07*: &nbsp;🎉🎉 Paper accepted to **XLLM Workshop @ ACL 2025** with poster presentation.
+- *2024.11*: &nbsp;💻 Joined **SAP** as Full-Stack Software Engineer.

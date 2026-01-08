@@ -1,0 +1,5 @@
+<span class='anchor' id='about-me'></span>
+
+I am a **B.S. Graduate** in **Cybersecurity** from [Fudan University](https://www.fudan.edu.cn/) (College of Computer Science and Artificial Intelligence). Currently, I work as a **Full-Stack Software Engineer** at [SAP](https://www.sap.com/) and a **Remote Research Intern** at [MOE Key Lab of Computational Linguistics, Peking University](https://klcl.pku.edu.cn/).
+
+My research interests lie in **Mechanistic Interpretability** and **LLM Reasoning**. I have been fortunate to work with [Prof. Liangming Pan](https://scholar.google.com/citations?hl=zh-CN&user=JcjjOTUAAAAJ) (Peking University) and [Prof. Yixin Cao](https://scholar.google.com/citations?user=CnhTvdoAAAAJ&hl=zh-CN&oi=ao) (Fudan University) on understanding how LLMs perform logical reasoning.

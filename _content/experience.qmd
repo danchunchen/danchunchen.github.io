@@ -1,0 +1,15 @@
+# 💻 Experience {#experience}
+
+**Professional Experience**
+
+- *2024.11 - Present*, **Full-Stack Software Engineer**, [SAP](https://www.sap.com/) Commerce Cloud, Shanghai
+- *2023.09 - 2024.02*, Backend Software Engineering Intern, [Poizon](https://www.poizon.com/) International Technology Department, Shanghai
+
+**Research Experience**
+
+- *2025.09 - Present*, Remote Intern (Mechanistic Interpretability), MOE Key Lab of Computational Linguistics, Peking University
+  - Supervisor: [Prof. Liangming Pan](https://scholar.google.com/citations?hl=zh-CN&user=JcjjOTUAAAAJ)
+- *2025.03 - 2025.07*, Research Intern (LLM Reasoning), Fudan University NLP Group
+  - Supervisors: [Prof. Yixin Cao](https://scholar.google.com/citations?user=CnhTvdoAAAAJ&hl=zh-CN&oi=ao), [Prof. Liangming Pan](https://scholar.google.com/citations?hl=zh-CN&user=JcjjOTUAAAAJ)
+- *2022.10 - 2023.03, 2024.09 - 2025.06*, Research Engineer, Institute of Big Data, Fudan University
+  - Supervisor: [Prof. Yang Zhou](http://ceess.fudan.edu.cn/Data/View/248)
