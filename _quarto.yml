@@ -5,7 +5,7 @@ project:
 website:
   title: "DANCHUN CHEN"
   description: "CS Graduate & Software Engineer | Research in Mechanistic Interpretability and LLM Reasoning"
-  site-url: https://teganone.github.io/cdc-acad-homepage
+  site-url: https://dcchen.github.io
   favicon: images/favicon.png
 
   # 搜索功能（已禁用，单页面网站用浏览器 Ctrl+F 即可）
