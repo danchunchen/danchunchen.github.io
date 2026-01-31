@@ -1,0 +1,66 @@
+baseURL = '/'
+relativeURLs = true
+languageCode = 'en-us'
+title = 'Danchun Chen'
+theme = 'PaperMod'
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  author = "Danchun Chen"
+  description = "CS Graduate & Software Engineer | Research in Mechanistic Interpretability and LLM Reasoning"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/danchunchen"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:dcchen.nexus@gmail.com"
+  [[params.socialIcons]]
+    name = "cv"
+    url = "/files/CV-CHEN-DANCHUN.pdf"
+
+[[menu.main]]
+  name = "About"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 2
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 3
+
+[[menu.main]]
+  name = "Archive"
+  url = "/archives/"
+  weight = 4
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+  [markup.goldmark.renderer]
+    unsafe = true

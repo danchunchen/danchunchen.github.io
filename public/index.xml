@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Danchun Chen (Nexus) on Danchun Chen</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Danchun Chen (Nexus) on Danchun Chen</description>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World: My First Blog Post</title>
+      <link>//localhost:1313/posts/hello-world/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/hello-world/</guid>
+      <description>Welcome to my personal blog where I share my thoughts on research and technology.</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>//localhost:1313/publications/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publications/</guid>
+      <description>&lt;div class=&#39;paper-box&#39;&gt;
+&lt;div class=&#39;paper-box-image&#39;&gt;
+&lt;div&gt;
+&lt;div class=&#34;badge&#34;&gt;ACL ARR 2026&lt;/div&gt;
+&lt;img src=&#39;./images/publications/proplogic-mi.png&#39; alt=&#34;paper&#34; width=&#34;100%&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#39;paper-box-text&#39;&gt;
+&lt;p&gt;&lt;strong&gt;Towards a Mechanistic Understanding of Propositional Logical Reasoning in Large Language Models&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Danchun Chen&lt;/strong&gt;, Qiyao Yan, Liangming Pan&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ACL ARR 2026 January Submission&lt;/em&gt; · &lt;strong&gt;Under Review&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conducted mechanistic analysis of Qwen3 (8B and 14B) on PropLogic-MI.&lt;/li&gt;
+&lt;li&gt;Uncovered four interlocking mechanisms for logical reasoning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;other-publications&#34;&gt;Other Publications&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;SWRV: Empowering Self-Verification of Small Language Models through Step-wise Reasoning and Verification&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Danchun Chen&lt;/strong&gt;, Yixin Cao, Liangming Pan&lt;br&gt;
+&lt;em&gt;XLLM @ ACL 2025&lt;/em&gt; · &lt;strong&gt;Certificate of 2nd Place Award&lt;/strong&gt;&lt;br&gt;
+&lt;span class=&#34;paper-links&#34;&gt;&lt;a href=&#34;https://github.com/Teganone/XLLM_LLMSR&#34;&gt;[Code]&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;For a complete list, please visit my &lt;a href=&#34;https://scholar.google.com/&#34;&gt;Google Scholar&lt;/a&gt; profile.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,160 @@
+.profile-header {
+  text-align: center;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-header img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+  object-fit: cover;
+}
+
+.profile-header h1 {
+  margin: 0.5em 0 0.25em;
+  font-size: 2em;
+}
+
+.profile-header .chinese-name {
+  color: var(--secondary);
+  margin: 0;
+}
+
+.profile-header .social-links {
+  margin-top: 0.5em;
+}
+
+.profile-header .social-links a {
+  margin: 0 0.5em;
+}
+
+.paper-box {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 1px #efefef solid;
+  padding: 1em 0;
+  margin-bottom: 0.5em;
+}
+
+.paper-box-image {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  order: 2;
+  position: relative;
+}
+
+.paper-box-image img {
+  max-width: 280px;
+  box-shadow: 2px 2px 5px #888;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.paper-box-text {
+  max-width: 100%;
+  order: 1;
+}
+
+.paper-box-text p {
+  margin: 0.3em 0;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+.paper-box-text ul {
+  margin: 0.3em 0;
+  padding-left: 1.2em;
+  font-size: 0.9em;
+}
+
+.paper-box-text li {
+  margin: 0.2em 0;
+}
+
+@media (min-width: 768px) {
+  .paper-box-image {
+    justify-content: left;
+    min-width: 180px;
+    max-width: 30%;
+    order: 1;
+  }
+
+  .paper-box-text {
+    justify-content: left;
+    padding-left: 1.5em;
+    max-width: 70%;
+    order: 2;
+  }
+}
+
+.badge {
+  padding: 0.25rem 0.75rem;
+  position: absolute;
+  top: 0.5em;
+  left: -0.5em;
+  color: white;
+  background-color: #00369f;
+  font-size: 0.8em;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.paper-links a {
+  margin-right: 0.75em;
+  padding: 0.2em 0.5em;
+  background: var(--tertiary);
+  border-radius: 3px;
+  font-size: 0.85em;
+  text-decoration: none;
+}
+
+.paper-links a:hover {
+  background: var(--primary);
+  color: var(--theme);
+}
+
+.section-box {
+  margin: 2em 0;
+  padding: 1.5em;
+  background: var(--entry);
+  border-radius: 8px;
+}
+
+.section-box h2 {
+  margin-top: 0;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 0.5em;
+}
+
+.education-item,
+.experience-item {
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--primary);
+}
+
+.education-item h3,
+.experience-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+  font-size: 1.1em;
+}
+
+.education-item p,
+.experience-item p {
+  margin: 0.25em 0;
+  color: var(--secondary);
+}
+
+.honor-item {
+  margin: 0.75em 0;
+  padding-left: 1em;
+}
