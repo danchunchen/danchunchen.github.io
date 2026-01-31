@@ -5,7 +5,7 @@ title: "Danchun Chen"
 <div class="about-wrapper">
 <div class="about-text">
 
-## Danchun Chen 陈丹淳
+## Danchun Chen 陈丹纯
 
 <p class="email">dcchen.nexus [at] gmail [dot] com</p>
 
