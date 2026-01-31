@@ -1,35 +1,67 @@
-.profile-header {
-  text-align: center;
-  margin-bottom: 2em;
+.about-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 2em;
+  margin-bottom: 1.5em;
 }
 
-.profile-header img {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  border: 3px solid var(--primary);
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+  font-size: 1.8em;
+}
+
+.about-text .email {
+  font-family: monospace;
+  font-size: 0.9em;
+  color: var(--secondary);
+  margin: 0 0 1em 0;
+}
+
+.about-text p {
+  line-height: 1.6;
+}
+
+.about-text .links {
+  margin-top: 1em;
+}
+
+.about-text .links a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+.about-text .links a:hover {
+  text-decoration: underline;
+}
+
+.about-image {
+  flex-shrink: 0;
+  width: 200px;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 8px;
   object-fit: cover;
 }
 
-.profile-header h1 {
-  margin: 0.5em 0 0.25em;
-  font-size: 2em;
+@media (max-width: 768px) {
+  .about-wrapper {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .about-image {
+    width: 160px;
+    margin: 0 auto;
+  }
 }
 
-.profile-header .chinese-name {
-  color: var(--secondary);
-  margin: 0;
-}
-
-.profile-header .social-links {
-  margin-top: 0.5em;
-}
-
-.profile-header .social-links a {
-  margin: 0 0.5em;
+.main .first-entry {
+  display: none;
 }
 
 .paper-box {

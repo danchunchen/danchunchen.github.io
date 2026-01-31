@@ -2,9 +2,9 @@
 title: "Hello World: My First Blog Post"
 date: 2026-01-31
 draft: false
-tags: ["intro", "blog"]
-categories: ["General"]
-author: "Your Name"
+tags: ["Intro", "Tutorial"]
+categories: ["Tech"]
+author: "Danchun Chen"
 description: "Welcome to my personal blog where I share my thoughts on research and technology."
 ShowToc: true
 TocOpen: false
