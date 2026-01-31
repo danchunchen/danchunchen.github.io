@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Philosophy on Danchun Chen</title>
+    <link>//localhost:1313/categories/philosophy/</link>
+    <description>Recent content in Philosophy on Danchun Chen</description>
+    <generator>Hugo -- 0.155.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前期维特根斯坦之世界结构观</title>
+      <link>//localhost:1313/posts/wittgenstein-world-structure/</link>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/wittgenstein-world-structure/</guid>
+      <description>在逻辑与现实的交汇处，存在着根本性的哲学问题：世界何以被逻辑所图示？语言何以可能描述世界？</description>
+    </item>
+  </channel>
+</rss>
