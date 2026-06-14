@@ -10,10 +10,6 @@ theme = 'PaperMod'
 [params]
   env = "production"
   defaultTheme = "auto"
-  favicon = "/images/favicon.png"
-  favicon16x16 = "/images/favicon.png"
-  favicon32x32 = "/images/favicon.png"
-  apple_touch_icon = "/images/favicon.png"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
@@ -73,3 +69,9 @@ theme = 'PaperMod'
     lineNos = false
   [markup.goldmark.renderer]
     unsafe = true
+
+[params.assets]
+  favicon = "/images/favicon.png"
+  favicon16x16 = "/images/favicon.png"
+  favicon32x32 = "/images/favicon.png"
+  apple_touch_icon = "/images/favicon.png"
