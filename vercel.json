@@ -1,6 +1,6 @@
 {
   "framework": "hugo",
-  "buildCommand": "hugo --minify",
+  "buildCommand": "hugo",
   "outputDirectory": "public",
   "build": {
     "env": {
