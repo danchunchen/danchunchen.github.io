@@ -11,7 +11,7 @@ title: "Danchun Chen"
 
 I'm a Research Engineer at [Singapore Management University](https://www.smu.edu.sg/), advised by [Prof. Qianru Sun](https://qianrusun.com/). I received my B.S. in Cybersecurity from [Fudan University](https://www.fudan.edu.cn/) in 2025.
 
-My research focuses on **Mechanistic Interpretability** and **LLM Reasoning** — understanding how language models perform reasoning tasks by reverse-engineering their internal computations.
+My research focuses on **Mechanistic Interpretability**, **LLM Reasoning**, and **AI Agents** — understanding how language models perform reasoning tasks by reverse-engineering their internal computations, and building efficient and trustworthy specialist agents.
 
 Previously, I was a Remote Research Intern at [Peking University](https://cs.pku.edu.cn/) with [Prof. Liangming Pan](https://liangmingpan.github.io/), and a Full-Stack Software Engineer at [SAP](https://www.sap.com/).
 
