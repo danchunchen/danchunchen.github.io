@@ -13,7 +13,7 @@ I'm a Research Engineer at [Singapore Management University](https://www.smu.edu
 
 My research focuses on **Mechanistic Interpretability**, **LLM Reasoning**, and **AI Agents** — understanding how language models perform reasoning tasks by reverse-engineering their internal computations, and building efficient and trustworthy specialist agents.
 
-Previously, I was a Remote Research Intern at [Peking University](https://cs.pku.edu.cn/) with [Prof. Liangming Pan](https://liangmingpan.github.io/), and a Full-Stack Software Engineer at [SAP](https://www.sap.com/).
+Previously, I was a Remote Research Intern at [Peking University](https://cs.pku.edu.cn/) with [Prof. Liangming Pan](https://liangmingpan.bio/), and a Full-Stack Software Engineer at [SAP](https://www.sap.com/).
 
 <p class="icon-links">
   <a href="/files/CV-CHEN-DANCHUN.pdf" title="CV" class="icon-link">
