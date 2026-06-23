@@ -18,7 +18,7 @@ ShowBreadCrumbs: false
 
 **Towards a Mechanistic Understanding of Propositional Logical Reasoning in Large Language Models**
 
-**Danchun Chen**, Qiyao Yan, Liangming Pan
+**Danchun Chen**<sup>*</sup>, Qiyao Yan<sup>*</sup>, Liangming Pan
 
 *arXiv preprint 2026*
 
@@ -53,4 +53,6 @@ ShowBreadCrumbs: false
 </div>
 </div>
 
-<!-- For a complete list, please visit my [Google Scholar](https://scholar.google.com/) profile. -->
+<p class="equal-contrib"><sup>*</sup> Equal contribution</p>
+
+<!-- For a complete list, please visit my [Google Scholar](https://scholar.google.com/citations?user=zdck554AAAAJ) profile. -->

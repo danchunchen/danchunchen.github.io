@@ -25,17 +25,29 @@
   line-height: 1.6;
 }
 
-.about-text .links {
+.icon-links {
   margin-top: 1em;
+  display: flex;
+  gap: 0.6em;
+  align-items: center;
 }
 
-.about-text .links a {
-  color: #1772d0;
+.icon-link {
+  display: inline-flex;
+  color: var(--primary);
   text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.15s;
 }
 
-.about-text .links a:hover {
-  text-decoration: underline;
+.icon-link:hover {
+  opacity: 1;
+  color: #1772d0;
+}
+
+.icon-link svg {
+  width: 22px;
+  height: 22px;
 }
 
 .about-image {
@@ -193,4 +205,10 @@
 .honor-item {
   margin: 0.75em 0;
   padding-left: 1em;
+}
+
+.equal-contrib {
+  font-size: 0.85em;
+  color: var(--secondary);
+  margin-top: 1.5em;
 }

@@ -1,87 +1,73 @@
-# Academic Homepage with Quarto
+# Academic Homepage — Hugo + PaperMod
 
-基于 Quarto + GitHub Pages 的学术个人主页，设计风格参考 [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io)。
+基于 [Hugo](https://gohugo.io/) + [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 主题的学术个人主页，部署在 GitHub Pages 和 Vercel。
 
 ## 项目结构
 
 ```
-cdc-acad-homepage/
-├── _quarto.yml              # Quarto 配置文件
-├── index.qmd                # 首页 (About)
-├── news.qmd                 # 最新动态
-├── publications.qmd         # 发表论文
-├── honors.qmd               # 荣誉奖项
-├── education.qmd            # 教育背景
-├── talks.qmd                # 邀请讲座
-├── experience.qmd           # 工作经历
+danchunchen.github.io/
+├── hugo.toml                    # Hugo 配置（主题、菜单、社交链接等）
+├── vercel.json                  # Vercel 部署配置
+├── content/
+│   ├── _index.md                # 首页 About（含 News）
+│   ├── publications.md          # 发表论文
+│   ├── archives.md              # 文章归档
+│   ├── search.md                # 搜索页
+│   └── posts/                   # 博客文章
 ├── _includes/
-│   └── author-profile.html  # 侧边栏个人资料组件
-├── styles/
-│   ├── custom.scss          # 自定义 SCSS 样式
-│   └── main.css             # 主 CSS 样式
-├── scripts/
-│   └── scholar-stats.html   # Google Scholar 引用数脚本
-├── google_scholar_crawler/
-│   ├── main.py              # 爬虫脚本
-│   └── requirements.txt     # Python 依赖
+│   └── sidebar.html             # 自定义侧边栏组件
+├── assets/                      # JS/CSS 资源
+├── styles/                      # 自定义 CSS
+├── static/
+│   ├── images/                  # 头像、论文配图等
+│   └── files/                   # CV PDF 等下载文件
+├── themes/
+│   └── PaperMod/                # Hugo 主题（git submodule）
 └── .github/workflows/
-    ├── publish.yml          # 网站构建部署
-    └── scholar-crawler.yml  # 引用数自动更新
+    └── deploy.yml               # GitHub Pages 自动部署
 ```
 
-## 快速开始
-
-### 1. 安装 Quarto
-
-从 [Quarto 官网](https://quarto.org/docs/get-started/) 下载安装：
+## 本地预览
 
 ```bash
-# macOS (使用 Homebrew)
-brew install quarto
-
-# 或下载 pkg 安装包
+# 需要 Hugo Extended v0.163.1+
+hugo server
 ```
 
-### 2. 本地预览
+浏览器打开 `http://localhost:1313`。
+
+## 内容修改
+
+| 要改什么 | 对应文件 |
+|---|---|
+| 个人简介 / News | `content/_index.md` |
+| 论文列表 | `content/publications.md` |
+| 博客文章 | `content/posts/` 下新建 `.md` 文件 |
+| 导航菜单 / 社交链接 | `hugo.toml` |
+| 自定义样式 | `styles/` |
+| 头像 | `static/images/profile.png` |
+| CV | `static/files/CV-CHEN-DANCHUN.pdf` |
+
+## 部署
+
+### GitHub Pages
+
+推送到 `main` 分支后，`.github/workflows/deploy.yml` 自动构建并部署。
+
+### Vercel
+
+连接仓库后 Vercel 自动识别 Hugo 框架，每次推送触发部署。Hugo 版本由 `vercel.json` 中 `HUGO_VERSION` 指定。
+
+## Hugo 安装
 
 ```bash
-cd /Users/tegan/Documents/2026/personal-website/cdc-acad-homepage
-quarto preview
+# macOS
+brew install hugo
+
+# 或从 GitHub Releases 下载 Extended 版本
+# https://github.com/gohugoio/hugo/releases
 ```
-
-浏览器将自动打开 `http://localhost:4000` 预览网站。
-
-### 3. 个性化配置
-
-1. **修改个人信息**：编辑 `_includes/author-profile.html`
-2. **修改网站配置**：编辑 `_quarto.yml` 中的 title、description、site-url
-3. **替换头像**：将你的头像放到 `images/profile.jpg`（或 .png）
-4. **更新页面内容**：编辑各 `.qmd` 文件
-
-### 4. GitHub 部署
-
-1. 创建 GitHub 仓库
-2. 推送代码到 main 分支
-3. 在 Repository Settings > Pages 中选择 "GitHub Actions" 作为 Source
-4. 添加 Secret `GOOGLE_SCHOLAR_ID`（可选，用于自动更新引用数）
-
-## Google Scholar 集成
-
-1. 获取你的 Google Scholar ID（从个人页面 URL 中获取，如 `citations?user=XXXXXX`）
-2. 在 GitHub 仓库 Settings > Secrets > Actions 中添加 `GOOGLE_SCHOLAR_ID`
-3. 修改 `scripts/scholar-stats.html` 中的 `repoOwner` 和 `repoName`
-
-## 自定义样式
-
-- `styles/custom.scss` - SCSS 变量和规则
-- `styles/main.css` - 主样式文件
-
-颜色变量参考参考项目设计：
-- 主链接色：`#224b8d`
-- 文本色：`#494e52`
-- 边框色：`#e0e0e0`
 
 ## 许可
 
 MIT License
-# Teganone.github.io

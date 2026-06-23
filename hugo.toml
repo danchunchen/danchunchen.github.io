@@ -24,6 +24,9 @@ theme = 'PaperMod'
     name = "github"
     url = "https://github.com/danchunchen"
   [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=zdck554AAAAJ"
+  [[params.socialIcons]]
     name = "email"
     url = "mailto:dcchen.nexus@gmail.com"
   [[params.socialIcons]]
